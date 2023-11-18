@@ -1,0 +1,43 @@
+/* Style the table to make it look like a Bootstrap datatable */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #dee2e6;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f8f9fa;
+}
+
+/* Add Bootstrap classes for styling */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+
+.table th, .table td {
+  border: 0;
+}
+
+.table thead th {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
